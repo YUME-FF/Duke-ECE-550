@@ -1,0 +1,22 @@
+module alub(data_operandA, data_operandB, ctrl_ALUopcode, ctrl_shiftamt, data_result, isNotEqual, isLessThan, overflow);
+
+   input [31:0] data_operandA, data_operandB;
+   input [4:0] ctrl_ALUopcode, ctrl_shiftamt;
+
+   output [31:0] data_result;
+   output isNotEqual, isLessThan, overflow;
+
+   // YOUR CODE HERE //
+	wire [31:0] ADD_RESULT, SUB_RESSULT;
+	wire COUT_1, COUT_2, ADD_OVERFLOW,SUB_OVERFLOW;
+	
+	and_gate #(32) AND_ALU(data_operandA, data_operandB, AND_RESULT);
+	or_gate #(32) OR_ALU(data_operandA, data_operandB, OR_RESULT);
+	
+	mux #(32) MUX_ADNOR(ctrl_ALUopcode[0], AND_RESULT, OR_RESULT, data_result);
+	
+	
+	
+	
+	
+endmodule

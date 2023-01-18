@@ -1,0 +1,8 @@
+
+State Machine - |style|stateMoore_reg
+Name stateMoore_reg.Moore_3 stateMoore_reg.Moore_2 stateMoore_reg.Moore_1 stateMoore_reg.Moore_0 stateMoore_reg.Moore_4 
+stateMoore_reg.Moore_0 0 0 0 0 0 
+stateMoore_reg.Moore_1 0 0 1 1 0 
+stateMoore_reg.Moore_2 0 1 0 1 0 
+stateMoore_reg.Moore_3 1 0 0 1 0 
+stateMoore_reg.Moore_4 0 0 0 1 1 

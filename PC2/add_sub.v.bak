@@ -1,0 +1,16 @@
+module add_sub(a,b,cin,sum,cout,overflow);
+	input [31:0] a, b;
+	input cin;
+	output [31:0]sum;
+	output cout;
+	output overflow;
+	wire [31:0] notb, bout;
+	wire [15:0]hope;
+	
+	not_gate32 note_gate32_1(.a(notb),.y(b));
+	mux_32 mux_32_1(.select(cin), .in0(b), .in1(notb), .out(bout));
+	csa_32 csa_32_1(.a(a),.b(bout),.cin(cin),.sum(sum[31:0]),.cout(cout),.prevout(hope));
+	
+	xor xor_gate_1(overflow,cout,hope[15]);
+
+endmodule

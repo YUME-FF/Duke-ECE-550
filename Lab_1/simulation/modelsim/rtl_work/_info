@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGALite/quartus/work_ece550/Lab_1/simulation/modelsim
+vnand_gate
+Z1 !s110 1662127516
+!i10b 1
+!s100 TdikM;`W0VH`zF[m54KNI0
+I9W4R6l<gT>Ldzn818m=9h2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1662124000
+8D:/intelFPGALite/quartus/work_ece550/Lab_1/nand_gate.v
+FD:/intelFPGALite/quartus/work_ece550/Lab_1/nand_gate.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1662127516.000000
+!s107 D:/intelFPGALite/quartus/work_ece550/Lab_1/nand_gate.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGALite/quartus/work_ece550/Lab_1|D:/intelFPGALite/quartus/work_ece550/Lab_1/nand_gate.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/intelFPGALite/quartus/work_ece550/Lab_1
+Z7 tCvgOpt 0
+vnand_gate2
+R1
+!i10b 1
+!s100 fC::W1:a1kI4lo4g:zP`D3
+In:Zi077TYDol2RjHn2kDD1
+R2
+R0
+Z8 w1662127468
+Z9 8D:/intelFPGALite/quartus/work_ece550/Lab_1/nand_gate_tb.v
+Z10 FD:/intelFPGALite/quartus/work_ece550/Lab_1/nand_gate_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z11 !s107 D:/intelFPGALite/quartus/work_ece550/Lab_1/nand_gate_tb.v|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGALite/quartus/work_ece550/Lab_1|D:/intelFPGALite/quartus/work_ece550/Lab_1/nand_gate_tb.v|
+!i113 1
+R5
+R6
+R7
+vnand_gate_tb
+R1
+!i10b 1
+!s100 1ARTTMZ]?mo;IXXdT@H1U1
+IiGmI@1lFE`9J_b7fo^C?J0
+R2
+R0
+R8
+R9
+R10
+L0 9
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7

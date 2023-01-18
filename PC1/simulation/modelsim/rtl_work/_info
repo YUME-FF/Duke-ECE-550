@@ -1,0 +1,186 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGALite/quartus/work_ece550/checkpoint1/simulation/modelsim
+vadd_sub
+Z1 !s110 1663901717
+!i10b 1
+!s100 f1bQR0<l5^`Mgd4F2HnoU1
+IQMSdmYo0EjFma5ziEGcHS1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1663899988
+8D:/intelFPGALite/quartus/work_ece550/checkpoint1/add_sub.v
+FD:/intelFPGALite/quartus/work_ece550/checkpoint1/add_sub.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1663901717.000000
+!s107 D:/intelFPGALite/quartus/work_ece550/checkpoint1/add_sub.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGALite/quartus/work_ece550/checkpoint1|D:/intelFPGALite/quartus/work_ece550/checkpoint1/add_sub.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/intelFPGALite/quartus/work_ece550/checkpoint1
+Z7 tCvgOpt 0
+valu
+R1
+!i10b 1
+!s100 @IiEA]>:UIQ^ZPWVBTk>V3
+I0?F]8Jfz9SdIAAgG:_lbS1
+R2
+R0
+w1663901667
+8D:/intelFPGALite/quartus/work_ece550/checkpoint1/alu.v
+FD:/intelFPGALite/quartus/work_ece550/checkpoint1/alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGALite/quartus/work_ece550/checkpoint1/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGALite/quartus/work_ece550/checkpoint1|D:/intelFPGALite/quartus/work_ece550/checkpoint1/alu.v|
+!i113 1
+R5
+R6
+R7
+valu_tb
+R1
+!i10b 1
+!s100 2<SN3ZD^6B1O99XLLka@40
+I^Lo@L[1ja9@80R93NfTBI1
+R2
+R0
+w1663537993
+8D:/intelFPGALite/quartus/work_ece550/checkpoint1/alu_tb.v
+FD:/intelFPGALite/quartus/work_ece550/checkpoint1/alu_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGALite/quartus/work_ece550/checkpoint1/alu_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGALite/quartus/work_ece550/checkpoint1|D:/intelFPGALite/quartus/work_ece550/checkpoint1/alu_tb.v|
+!i113 1
+R5
+R6
+R7
+vcarry_save_adder
+R1
+!i10b 1
+!s100 TJnDNMSH:3dok`j];5`a]0
+I];>26LfR<EUIoaGb30;^32
+R2
+R0
+w1663896906
+8D:/intelFPGALite/quartus/work_ece550/checkpoint1/carry_save_adder.v
+FD:/intelFPGALite/quartus/work_ece550/checkpoint1/carry_save_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGALite/quartus/work_ece550/checkpoint1/carry_save_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGALite/quartus/work_ece550/checkpoint1|D:/intelFPGALite/quartus/work_ece550/checkpoint1/carry_save_adder.v|
+!i113 1
+R5
+R6
+R7
+vfull_adder
+R1
+!i10b 1
+!s100 H<SL4oH?f?Y76[3X>i;TB1
+I245Yal8[PG<aD0EX9I2g>1
+R2
+R0
+w1663901618
+8D:/intelFPGALite/quartus/work_ece550/checkpoint1/full_adder.v
+FD:/intelFPGALite/quartus/work_ece550/checkpoint1/full_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGALite/quartus/work_ece550/checkpoint1/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGALite/quartus/work_ece550/checkpoint1|D:/intelFPGALite/quartus/work_ece550/checkpoint1/full_adder.v|
+!i113 1
+R5
+R6
+R7
+vmux
+R1
+!i10b 1
+!s100 a?kHz012zbAQd3?QL0c?T1
+I@la1:V0h]>XPi<;6MhBn52
+R2
+R0
+w1663512307
+8D:/intelFPGALite/quartus/work_ece550/checkpoint1/mux.v
+FD:/intelFPGALite/quartus/work_ece550/checkpoint1/mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGALite/quartus/work_ece550/checkpoint1/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGALite/quartus/work_ece550/checkpoint1|D:/intelFPGALite/quartus/work_ece550/checkpoint1/mux.v|
+!i113 1
+R5
+R6
+R7
+vnot_gate
+R1
+!i10b 1
+!s100 @K1BPbYo6C91cBYQ<?Hd02
+I3:c1BG9UC398;bjmEWH_;0
+R2
+R0
+w1663511677
+8D:/intelFPGALite/quartus/work_ece550/checkpoint1/not_gate.v
+FD:/intelFPGALite/quartus/work_ece550/checkpoint1/not_gate.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGALite/quartus/work_ece550/checkpoint1/not_gate.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGALite/quartus/work_ece550/checkpoint1|D:/intelFPGALite/quartus/work_ece550/checkpoint1/not_gate.v|
+!i113 1
+R5
+R6
+R7
+vripple_carry_adder_2
+R1
+!i10b 1
+!s100 AeUVk8Fm00o?gL[KE3h6L3
+IL3dST7<0eWaMQ5z7DOhF[2
+R2
+R0
+w1663515553
+8D:/intelFPGALite/quartus/work_ece550/checkpoint1/ripple_carry_adder_2.v
+FD:/intelFPGALite/quartus/work_ece550/checkpoint1/ripple_carry_adder_2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGALite/quartus/work_ece550/checkpoint1/ripple_carry_adder_2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGALite/quartus/work_ece550/checkpoint1|D:/intelFPGALite/quartus/work_ece550/checkpoint1/ripple_carry_adder_2.v|
+!i113 1
+R5
+R6
+R7

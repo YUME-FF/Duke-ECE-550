@@ -1,0 +1,13 @@
+module led(
+ output led0,   //定义第一个LED灯
+ output led1,   //定义第二个LED灯
+ output led2,   //定义第三个LED灯
+ output led3    //定义第四个LED灯
+);
+
+assign led0 = 0;   //将第一个LED灯所连接到的芯片引脚置于低电平
+assign led1 = 0;   //将第二个LED灯所连接到的芯片引脚置于低电平
+assign led2 = 0;   //将第三个LED灯所连接到的芯片引脚置于低电平
+assign led3 = 0;   //将第四个LED灯所连接到的芯片引脚置于低电平
+
+endmodule

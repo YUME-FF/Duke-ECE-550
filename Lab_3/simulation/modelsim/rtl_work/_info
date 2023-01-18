@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGALite/quartus/work_ece550/Lab_3/simulation/modelsim
+vcarry_save_adder
+Z1 !s110 1663337336
+!i10b 1
+!s100 bL44cQ`9aaG_:WY@AKh>_3
+Ie[OZnFX_@??j9QANAFhc:0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1663333870
+8D:/intelFPGALite/quartus/work_ece550/Lab_3/carry_save_adder.v
+FD:/intelFPGALite/quartus/work_ece550/Lab_3/carry_save_adder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1663337336.000000
+!s107 D:/intelFPGALite/quartus/work_ece550/Lab_3/carry_save_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGALite/quartus/work_ece550/Lab_3|D:/intelFPGALite/quartus/work_ece550/Lab_3/carry_save_adder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/intelFPGALite/quartus/work_ece550/Lab_3
+Z7 tCvgOpt 0
+vwtm
+R1
+!i10b 1
+!s100 9fU^?7HOI0570[0]VM>Ja2
+IM=7@fHPe>>hU3HcdiOn>92
+R2
+R0
+w1663337296
+8D:/intelFPGALite/quartus/work_ece550/Lab_3/wtm.v
+FD:/intelFPGALite/quartus/work_ece550/Lab_3/wtm.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGALite/quartus/work_ece550/Lab_3/wtm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGALite/quartus/work_ece550/Lab_3|D:/intelFPGALite/quartus/work_ece550/Lab_3/wtm.v|
+!i113 1
+R5
+R6
+R7
+vwtm_tb
+R1
+!i10b 1
+!s100 `9K2NK[[M9ePAO?LL1WRK1
+Id?ID8^zQX0mohaiAH6EFd2
+R2
+R0
+w1663337302
+8D:/intelFPGALite/quartus/work_ece550/Lab_3/wtm_tb.v
+FD:/intelFPGALite/quartus/work_ece550/Lab_3/wtm_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGALite/quartus/work_ece550/Lab_3/wtm_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGALite/quartus/work_ece550/Lab_3|D:/intelFPGALite/quartus/work_ece550/Lab_3/wtm_tb.v|
+!i113 1
+R5
+R6
+R7

@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGALite/quartus/work_ece550/Lab_5/simulation/modelsim
+valub
+!s110 1664548397
+!i10b 1
+!s100 c7PaL<1T=Vb7Kg>7H7PmP1
+IjV];?o2Z4[25KUV5gVM<[2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1664495016
+8D:/intelFPGALite/quartus/work_ece550/Lab_5/alub.v
+FD:/intelFPGALite/quartus/work_ece550/Lab_5/alub.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1664548397.000000
+!s107 D:/intelFPGALite/quartus/work_ece550/Lab_5/alub.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGALite/quartus/work_ece550/Lab_5|D:/intelFPGALite/quartus/work_ece550/Lab_5/alub.v|
+!i113 1
+Z3 o-vlog01compat -work work
+Z4 !s92 -vlog01compat -work work +incdir+D:/intelFPGALite/quartus/work_ece550/Lab_5
+Z5 tCvgOpt 0
+valub_tb
+!s110 1664548398
+!i10b 1
+!s100 @V2]NR:30KV0hI[A_Ngf^2
+I<kQ5[[UI7gbH5E2d6=X1c1
+R1
+R0
+w1664494872
+8D:/intelFPGALite/quartus/work_ece550/Lab_5/alub_tb.v
+FD:/intelFPGALite/quartus/work_ece550/Lab_5/alub_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1664548398.000000
+!s107 D:/intelFPGALite/quartus/work_ece550/Lab_5/alub_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGALite/quartus/work_ece550/Lab_5|D:/intelFPGALite/quartus/work_ece550/Lab_5/alub_tb.v|
+!i113 1
+R3
+R4
+R5

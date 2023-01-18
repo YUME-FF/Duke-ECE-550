@@ -1,0 +1,16 @@
+module ripple_carry_adder_2(
+    input [1:0] INPUT_A,
+    input [1:0] INPUT_B,
+    input  CIN,
+    output [1:0] SUM,
+    output COUT,
+	 output FLAG
+    );
+    generate
+        genvar index;
+        for(index=0;index<DATA_WIDTH;index=index+1'b1)
+            begin: identifier_rca
+					 full_adder FA_RCA(INPUT_A[index], INPUT_B[index], CIN[index], SUM[index], COUT[index]);
+            end
+    endgenerate
+endmodule

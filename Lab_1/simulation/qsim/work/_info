@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGALite/quartus/work_ece550/Lab_1/simulation/qsim
+vdec2to4
+Z1 !s110 1662128484
+!i10b 1
+!s100 YoC=o>m36IMmV9[IM8XRI2
+Im6957mR]1Z2R>VUgGaNjO0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1662128483
+Z3 8nand_gate.vo
+Z4 Fnand_gate.vo
+Z5 L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1662128484.000000
+Z8 !s107 nand_gate.vo|
+Z9 !s90 -work|work|nand_gate.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vdec2to4_vlg_vec_tst
+R1
+!i10b 1
+!s100 joL:V_SUhUoF<0HlTX3W^0
+Igg0[33dCXIY8Vj;]nWKWX2
+R2
+R0
+w1662128482
+Z12 8Waveform.vwf.vt
+Z13 FWaveform.vwf.vt
+Z14 L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+Z15 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+Z16 !s110 1662128525
+!i10b 1
+!s100 8njLGag8ZL3HHoNaKekRC1
+Io4AdhbXAOYbL_K]lzf9RY0
+R2
+R0
+Z17 w1662128524
+R3
+R4
+L0 122
+R6
+r1
+!s85 0
+31
+Z18 !s108 1662128524.000000
+R8
+R9
+!i113 1
+R10
+R11
+vnand_gate
+R16
+!i10b 1
+!s100 WJ<bdEcIzfK_RB6R5g?hF2
+IWQS1bJ<N0VlTZ44;Rg^X?1
+R2
+R0
+R17
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+R18
+R8
+R9
+!i113 1
+R10
+R11
+vnand_gate_vlg_vec_tst
+R16
+!i10b 1
+!s100 h6?Y;=f[5dW4S8VAGTk3l2
+Ie>R8QhQ]CiU>VJZR1[cgW0
+R2
+R0
+w1662128523
+R12
+R13
+R14
+R6
+r1
+!s85 0
+31
+!s108 1662128525.000000
+!s107 Waveform.vwf.vt|
+R15
+!i113 1
+R10
+R11

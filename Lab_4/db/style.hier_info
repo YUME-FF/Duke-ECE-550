@@ -1,0 +1,26 @@
+|style
+clk => stateMoore_reg.Moore_7.CLK
+clk => stateMoore_reg.Moore_6.CLK
+clk => stateMoore_reg.Moore_5.CLK
+clk => stateMoore_reg.Moore_4.CLK
+clk => stateMoore_reg.Moore_3.CLK
+clk => stateMoore_reg.Moore_2.CLK
+clk => stateMoore_reg.Moore_1.CLK
+clk => stateMoore_reg.Moore_0.CLK
+reset => stateMoore_reg.Moore_7.ALOAD
+reset => stateMoore_reg.Moore_6.ALOAD
+reset => stateMoore_reg.Moore_5.ALOAD
+reset => stateMoore_reg.Moore_4.ALOAD
+reset => stateMoore_reg.Moore_3.ALOAD
+reset => stateMoore_reg.Moore_2.ALOAD
+reset => stateMoore_reg.Moore_1.ALOAD
+reset => stateMoore_reg.Moore_0.ALOAD
+count <= count.DB_MAX_OUTPUT_PORT_TYPE
+current_state[0] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+current_state[1] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+current_state[2] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+next_state[0] <= next_state.DB_MAX_OUTPUT_PORT_TYPE
+next_state[1] <= next_state.DB_MAX_OUTPUT_PORT_TYPE
+next_state[2] <= stateMoore_reg.Moore_3.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,51 @@
+	module sra_gate#(parameter DATA_WIDTH=32)(
+    input [DATA_WIDTH-1:0] INPUT_A,
+	 input [4:0] ctrl_shiftamt,
+    output [DATA_WIDTH-1:0] OUT_A
+    );
+	 
+	 wire [DATA_WIDTH-1:0] TEMP_A0;
+	 wire [DATA_WIDTH-1:0] TEMP_A1;
+    generate
+	 
+		mux #(1) (ctrl_shiftamt[0], INPUT_A[0], 1b'0, TEMP_A0[0]);
+		for(index=1;index<DATA_WIDTH;index=index+1'b1)
+        begin: identifier_sll_0
+				mux #(1) (ctrl_shiftamt[0], INPUT_A[index], INPUT_A[index-1],  TEMP_A0[index]);
+        end
+		  
+		mux #(1) (ctrl_shiftamt[1], TEMP_A0[0], 1b'0, TEMP_A1[0]);
+		mux #(1) (ctrl_shiftamt[1], TEMP_A0[1], 1b'0, TEMP_A1[1]);
+		for(index=2;index<DATA_WIDTH;index=index+1'b1)
+        begin: identifier_sll_1
+				mux #(1) (ctrl_shiftamt[1], TEMP_A0[index], TEMP_A0[index-2],  TEMP_A1[index]);
+        end
+		
+		mux #(1) (ctrl_shiftamt[2], TEMP_A1[0], 1b'0, TEMP_A0[0]);
+		mux #(1) (ctrl_shiftamt[2], TEMP_A1[1], 1b'0, TEMP_A0[1]);
+		mux #(1) (ctrl_shiftamt[2], TEMP_A1[2], 1b'0, TEMP_A0[2]);
+		for(index=3;index<DATA_WIDTH;index=index+1'b1)
+        begin: identifier_sll_2
+				mux #(1) (ctrl_shiftamt[2], TEMP_A1[index], TEMP_A1[index-3],  TEMP_A0[index]);
+        end
+		
+		mux #(1) (ctrl_shiftamt[3], TEMP_A0[0], 1b'0, TEMP_A1[0]);
+		mux #(1) (ctrl_shiftamt[3], TEMP_A0[1], 1b'0, TEMP_A1[1]);
+		mux #(1) (ctrl_shiftamt[3], TEMP_A0[2], 1b'0, TEMP_A1[2]);
+		mux #(1) (ctrl_shiftamt[3], TEMP_A0[3], 1b'0, TEMP_A1[3]);
+		for(index=4;index<DATA_WIDTH;index=index+1'b1)
+        begin: identifier_sll_3
+				mux #(1) (ctrl_shiftamt[3], TEMP_A0[index], TEMP_A0[index-4],  TEMP_A1[index]);
+        end
+		
+		mux #(1) (ctrl_shiftamt[4], TEMP_A1[0], 1b'0, OUT_A[0]);
+		mux #(1) (ctrl_shiftamt[4], TEMP_A1[1], 1b'0, OUT_A[1]);
+		mux #(1) (ctrl_shiftamt[4], TEMP_A1[2], 1b'0, OUT_A[2]);
+		mux #(1) (ctrl_shiftamt[4], TEMP_A1[3], 1b'0, OUT_A[3]);
+		mux #(1) (ctrl_shiftamt[4], TEMP_A1[4], 1b'0, OUT_A[4]);
+		for(index=5;index<DATA_WIDTH;index=index+1'b1)
+        begin: identifier_sll_4
+				mux #(1) (ctrl_shiftamt[4], TEMP_A1[index], TEMP_A1[index-5],  OUT_A[index]);
+        end
+    endgenerate
+endmodule

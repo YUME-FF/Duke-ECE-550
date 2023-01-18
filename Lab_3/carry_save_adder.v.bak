@@ -1,0 +1,15 @@
+	module carry_save_adder(parameter DATA_WIDTH=4)(
+    input [DATA_WIDTH-1:0]a,
+    input [DATA_WIDTH-1:0]b,
+    input [DATA_WIDTH-1:0]cin,
+    output [DATA_WIDTH-1:0] sum,
+    output [DATA_WIDTH-1:0]carry_out
+    );
+    generate
+        genvar index;
+        for(index=0;index<DATA_WIDTH;index=index+1'b1) //assign each bit of carry_out and sum
+            begin
+                assign {carry_out[index], sum[index]} = a[index]+b[index]+cin[index];
+            end
+    endgenerate
+endmodule

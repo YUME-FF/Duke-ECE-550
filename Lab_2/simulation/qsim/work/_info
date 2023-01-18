@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGALite/quartus/work_ece550/Lab_2/simulation/qsim
+vfull_adder
+Z1 !s110 1662688158
+!i10b 1
+!s100 EY?l;TP=_h8eMCkU5DcIU1
+I[9QL9gbfl6Al`MkMD2@UC0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1662688153
+Z3 8full_adder.vo
+Z4 Ffull_adder.vo
+Z5 L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1662688158.000000
+Z8 !s107 full_adder.vo|
+Z9 !s90 -work|work|full_adder.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vfull_adder4
+Z12 !s110 1662731429
+!i10b 1
+!s100 Sd`b;@iNQhi2Mg4S2EZFk2
+Ice7cS39PjNiISLdJc6g@n3
+R2
+R0
+Z13 w1662731424
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z14 !s108 1662731429.000000
+R8
+R9
+!i113 1
+R10
+R11
+vfull_adder4_vlg_vec_tst
+R12
+!i10b 1
+!s100 @:=@:iKC;nl83BL;YmoPR2
+ISRAiVGPZY2_5PQ;EET7iL2
+R2
+R0
+R13
+Z15 8Waveform.vwf.vt
+Z16 FWaveform.vwf.vt
+Z17 L0 30
+R6
+r1
+!s85 0
+31
+R14
+!s107 Waveform.vwf.vt|
+Z18 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vfull_adder_vlg_vec_tst
+R1
+!i10b 1
+!s100 OcZ^d0;12nmAceWLzk<WH2
+II4kzQ7Y`dLVCkLYK87mC51
+R2
+R0
+w1662688152
+R15
+R16
+R17
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+R18
+!i113 1
+R10
+R11
+vhard_block
+R12
+!i10b 1
+!s100 5MkZ2oTA521b`aE?f<e3M1
+Id_3C>4FmMTJQ_Ii:Gm7IA3
+R2
+R0
+R13
+R3
+R4
+L0 404
+R6
+r1
+!s85 0
+31
+R14
+R8
+R9
+!i113 1
+R10
+R11

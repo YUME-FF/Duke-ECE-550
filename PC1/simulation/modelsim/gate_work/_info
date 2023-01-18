@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGALite/quartus/work_ece550/checkpoint1/simulation/modelsim
+valu
+Z1 !s110 1663898452
+!i10b 1
+!s100 XA=kU?>>jbF2Q8o8Sf4B<0
+I2X?bM5801RbQBVFKB72lZ2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1663898252
+Z4 8alu_7_1200mv_85c_slow.vo
+Z5 Falu_7_1200mv_85c_slow.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1663898451.000000
+Z8 !s107 alu_7_1200mv_85c_slow.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|alu_7_1200mv_85c_slow.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+valu_tb
+R1
+!i10b 1
+!s100 2<SN3ZD^6B1O99XLLka@40
+I^Lo@L[1ja9@80R93NfTBI1
+R2
+R0
+w1663537993
+8D:/intelFPGALite/quartus/work_ece550/checkpoint1/alu_tb.v
+FD:/intelFPGALite/quartus/work_ece550/checkpoint1/alu_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1663898452.000000
+!s107 D:/intelFPGALite/quartus/work_ece550/checkpoint1/alu_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGALite/quartus/work_ece550/checkpoint1|D:/intelFPGALite/quartus/work_ece550/checkpoint1/alu_tb.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+D:/intelFPGALite/quartus/work_ece550/checkpoint1
+R12
+vhard_block
+R1
+!i10b 1
+!s100 >@I<_Tjf`h4BzmnNOND<<0
+Ij12e[n2K71XZZQ8>G22l53
+R2
+R0
+R3
+R4
+R5
+L0 3779
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

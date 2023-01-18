@@ -1,0 +1,15 @@
+	module not_gate#(parameter DATA_WIDTH=32)(
+    input [DATA_WIDTH-1:0] Input_A,
+    input [DATA_WIDTH-1:0] Input_B,
+    input [DATA_WIDTH-1:0] cin,
+    output [DATA_WIDTH-1:0] sum,
+    output [DATA_WIDTH-1:0] cout
+    );
+    generate
+        genvar index;
+        for(index=0;index<DATA_WIDTH;index=index+1'b1) //assign each bit of carry_out and sum
+            begin: generate_block_identifier
+					 full_adder(Input_A[index], Input_B[index, cin[index], sum[index], cout[index]);
+            end
+    endgenerate
+endmodule
